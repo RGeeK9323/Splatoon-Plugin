@@ -20,8 +20,10 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <wups.h>
-#include <stdio.h>
 #include <nsysnet/socket.h>
+#include <coreinit/systeminfo.h>
+#include <nsysnet/socket.h>
+#include <vpad/input.h>
 
 #include <utils/logger.h>
 #include "main.h"
@@ -33,6 +35,7 @@ WUPS_PLUGIN_AUTHOR("RGeeK");
 WUPS_PLUGIN_LICENSE("GPL");
 
 WUPS_ALLOW_OVERLAY()
+WUPS_ALLOW_KERNEL()
 
 ON_APPLICATION_START(args){
     socket_lib_init();

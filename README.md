@@ -2,6 +2,7 @@
 ![banner](https://user-images.githubusercontent.com/63604225/153875345-cbe58883-a297-4842-beae-7b05286e0340.png)
 
 ## Description
+### THIS ISN'T AN HOMEBREW, you can modify the cheats while you play, hence the name "plugin".
 This is a plugin for Wii U that allow you to enable/disable cheats codes for Splatoon.
 
 ## Usage
